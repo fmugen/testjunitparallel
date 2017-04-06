@@ -1,0 +1,2 @@
+# testjunitparallel
+自動テストの並行実行がCircleCIでも動作するかどうか試すためののリポジトリです。
