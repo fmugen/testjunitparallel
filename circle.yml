@@ -1,4 +1,4 @@
 ## Customize test commands
   test:
     override:
-      - ./gradlew phantomJsTest
+      - bash gradlew phantomJsTest
