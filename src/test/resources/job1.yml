@@ -1,0 +1,9 @@
+jenkinsjob:
+    -
+      シナリオ番号: 1
+      シナリオ名: "ScenarioNo0101.yml"
+      シナリオクラス: "parallel.testscenario"
+    -
+      シナリオ番号: 2
+      シナリオ名: "ScenarioNo0101.yml"
+      シナリオクラス: "parallel.testscenario"
