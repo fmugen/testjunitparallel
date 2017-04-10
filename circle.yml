@@ -1,4 +1,5 @@
 ## Customize test commands
   test:
     override:
-      - ./gradlew phantomJsTest --stacktrace --debug
+      - case $CIRCLE_NODE_INDEX in 0) ./gradlew phantomJsTest --stacktrace --debug ;; 1) ./gradlew phantomJsTest --stacktrace --debug ;; esac:
+        paralle: true
