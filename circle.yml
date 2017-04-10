@@ -1,5 +1,5 @@
 ## Customize test commands
   test:
     override:
-      - case $CIRCLE_NODE_INDEX in 0) ./gradlew chromeTest -Dscenariospec.jobconfig=job1.yml --stacktrace --debug ;; 1) ./gradlew phantomJsTest -Dscenariospec.jobconfig=job2.yml --stacktrace --debug ;; esac:
+      - case $CIRCLE_NODE_INDEX in 0) ./gradlew chromeTest -Dscenariospec.jobconfig=job1.yml --stacktrace --debug ;; 1) ./gradlew firfoxTest -Dscenariospec.jobconfig=job2.yml --stacktrace --debug ;; esac:
         paralle: true
